@@ -2,10 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <section
-      id="home"
-      className="relative pt-32 pb-12 overflow-hidden min-h-[600px]"
-    >
+    <section id="home" className="relative h-screen overflow-hidden">
       {/* Video Background */}
       <video
         autoPlay
@@ -22,9 +19,10 @@ function Hero() {
       </video>
 
       {/* Gradient Overlay */}
-      <div className=" inset-0 bg-gradient-to-r from-slate-900/40 to-slate-900/60 dark:from-slate-900/70 dark:to-slate-900/90 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-900/40 to-slate-900/60 dark:from-slate-900/70 dark:to-slate-900/90 z-10" />
+
       {/* Content */}
-      <div className="container mx-auto px-6 text-center relative z-20">
+      <div className="container mx-auto px-6 relative z-20 h-full flex flex-col items-center justify-center text-center">
         <h1 className="text-5xl font-bold text-white dark:text-white mb-6">
           Find Your Perfect Home
         </h1>

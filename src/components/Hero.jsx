@@ -22,8 +22,7 @@ function Hero() {
       </video>
 
       {/* Gradient Overlay */}
-      <div className=" inset-0 bg-gradient-to-r from-slate-100/80 to-slate-300/80 dark:from-slate-800/80 dark:to-slate-900/80 z-10" />
-
+      <div className=" inset-0 bg-gradient-to-r from-slate-900/40 to-slate-900/60 dark:from-slate-900/70 dark:to-slate-900/90 z-10" />
       {/* Content */}
       <div className="container mx-auto px-6 text-center relative z-20">
         <h1 className="text-5xl font-bold text-white dark:text-white mb-6">

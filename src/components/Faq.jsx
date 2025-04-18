@@ -17,7 +17,7 @@ function Faq() {
   ]
 
   return (
-    <section className="py-16" id="faq">
+    <section className="py-16 backdrop-blur-sm" id="faq">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-slate-800 dark:text-white mb-8 text-center">
           Frequently Asked Questions

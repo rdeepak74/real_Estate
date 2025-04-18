@@ -23,7 +23,10 @@ function Testimonials() {
   ]
 
   return (
-    <section className="py-16 bg-slate-50 dark:bg-slate-800" id="testimonials">
+    <section
+      className="py-16 bg-white/50 dark:bg-slate-800/80 backdrop-blur-sm"
+      id="testimonials"
+    >
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-slate-800 dark:text-white mb-8 text-center  mt-4">
           Client Testimonials

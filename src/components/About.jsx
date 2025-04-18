@@ -2,7 +2,10 @@ import React from 'react'
 
 function About() {
   return (
-    <section className="py-16 bg-white dark:bg-slate-900" id="about">
+    <section
+      className="py-16 bg-white/50 dark:bg-slate-900/80 backdrop-blur-sm"
+      id="about"
+    >
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">

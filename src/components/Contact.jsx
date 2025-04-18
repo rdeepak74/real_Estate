@@ -2,7 +2,10 @@ import React from 'react'
 
 function Contact() {
   return (
-    <section className="py-16 bg-slate-50 dark:bg-slate-800" id="contact">
+    <section
+      className="py-16 bg-white/50 dark:bg-slate-800/80 backdrop-blur-sm"
+      id="contact"
+    >
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-slate-800 dark:text-white mb-8  mt-4">

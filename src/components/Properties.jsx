@@ -93,7 +93,10 @@ function Properties() {
   ]
 
   return (
-    <section className="py-16 bg-slate-50 dark:bg-slate-900" id="properties">
+    <section
+      className="py-16 bg-white/50 dark:bg-slate-900/80 backdrop-blur-sm"
+      id="properties"
+    >
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-800 dark:text-white mb-4 uppercase">

@@ -67,7 +67,7 @@ function Footer() {
           </div>
         </div>
         <div className="border-t border-slate-700 mt-12 pt-8 text-center">
-          <p>&copy; 2023 Real Estate. All rights reserved.</p>
+          <p>&copy; 2025 Real Estate. All rights reserved.</p>
         </div>
       </div>
     </footer>
